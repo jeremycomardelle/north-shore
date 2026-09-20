@@ -644,3 +644,27 @@ section.alt {
   .brand-logo img { height: 44px; }
   .site-header.is-scrolled .brand-logo img { height: 34px; }
 }
+
+/* header wordmark */
+.brand-logo { gap: 12px; }
+.brand-name {
+  display: inline-flex;
+  flex-direction: column;
+  font-family: var(--font-display);
+  font-size: 1.7rem;
+  line-height: 0.95;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--white);
+  white-space: nowrap;
+}
+.brand-name span {
+  font-size: 0.85rem;
+  letter-spacing: 0.3em;
+  color: var(--accent);
+}
+@media (max-width: 720px) {
+  .brand-logo { gap: 10px; }
+  .brand-name { font-size: 1.45rem; }
+  .brand-name span { font-size: 0.78rem; }
+}
