@@ -1,6 +1,6 @@
 # North Shore Custom Rifles — Website
 
-Single-page marketing site for North Shore Custom Rifles, a Louisiana gunsmith building PRS, NRL Hunter, PRS22 and NRL22 competition rifles plus hunting and .22 precision rifles. Static HTML/CSS/JS — no build step — deployed to Azure Static Web Apps.
+Single-page marketing site for North Shore Custom Rifles, a Louisiana gunsmith building PRS, NRL Hunter, PRS22 and NRL22 competition rifles plus hunting and rimfire precision rifles. Static HTML/CSS/JS — no build step — deployed to Azure Static Web Apps.
 
 ## Local development
 
