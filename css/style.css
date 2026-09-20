@@ -580,7 +580,8 @@ section.alt {
 }
 
 /* build tiles share the match-card look */
-.match-grid--3 { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.match-grid--3 { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 980px) { .match-grid--3 { grid-template-columns: 1fr; } }
 .match-card .icon {
   width: 46px; height: 46px;
   display: flex; align-items: center; justify-content: center;
