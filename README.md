@@ -13,7 +13,7 @@ npx serve .
 ## Editing
 
 - Copy lives in `index.html`; colors/fonts are CSS variables at the top of `css/style.css` (`--accent` is the rifle-chassis green).
-- Logo: `assets/images/logo.jpg`.
+- Logo: `assets/images/logo2.jpg`.
 - Facebook: https://www.facebook.com/NScustomrifles — Instagram: https://www.instagram.com/northshorecustomrifles/
 
 ## Deployment

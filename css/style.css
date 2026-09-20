@@ -315,6 +315,7 @@ h1, h2, h3, h4 {
   animation: pulse 4s ease-in-out infinite;
 }
 .logo-img {
+  background: #fff;
   position: relative;
   width: 100%;
   height: auto;
