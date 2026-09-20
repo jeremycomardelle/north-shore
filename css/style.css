@@ -578,3 +578,14 @@ section.alt {
   .tagline-card { padding: 36px 28px; }
   section { padding: 76px 0; }
 }
+
+/* build tiles share the match-card look */
+.match-grid--3 { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.match-card .icon {
+  width: 46px; height: 46px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 12px;
+  background: rgba(106, 160, 86, 0.15);
+  color: var(--accent);
+}
+.match-card .icon svg { width: 24px; height: 24px; }
