@@ -843,3 +843,8 @@ body.lightbox-open { overflow: hidden; }
 }
 
 .photo-grid[hidden], .gallery-cat[hidden] { display: none; }
+
+/* lightbox: fit inside the padded overlay on phones (94vw + padding overflowed) */
+.lightbox { padding: 16px; box-sizing: border-box; }
+.lightbox figure { width: 100%; max-width: 1400px; }
+.lightbox img { max-width: 100%; max-height: calc(100vh - 130px); max-height: calc(100dvh - 130px); }
