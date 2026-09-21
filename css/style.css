@@ -23,7 +23,7 @@
 
 * { box-sizing: border-box; }
 
-section, #top { scroll-margin-top: 90px; }
+section, #top { scroll-margin-top: 0; }
 
 html { scroll-behavior: smooth; }
 
@@ -329,7 +329,7 @@ h1, h2, h3, h4 {
 }
 
 /* ---------- section shell ---------- */
-section { position: relative; padding: 110px 0; }
+section { position: relative; padding: 72px 0; }
 section.alt {
   background: var(--near-black);
   border-top: 1px solid var(--line);
@@ -337,7 +337,7 @@ section.alt {
 }
 .section-head {
   max-width: 640px;
-  margin-bottom: 56px;
+  margin-bottom: 40px;
 }
 .section-head h2 {
   font-size: clamp(2.2rem, 4.5vw, 3.2rem);
@@ -576,7 +576,7 @@ section.alt {
   .match-grid { grid-template-columns: 1fr; }
   .footer-top { grid-template-columns: 1fr; }
   .tagline-card { padding: 36px 28px; }
-  section { padding: 76px 0; }
+  section { padding: 56px 0; }
 }
 
 /* build tiles share the match-card look */
@@ -851,3 +851,24 @@ body.lightbox-open { overflow: hidden; }
 
 /* match cards moved under "How a build works" */
 .process-matches { margin-top: 64px; }
+
+/* spec list: single phrase per row */
+.spec-list li { justify-content: flex-start; }
+.spec-list strong { text-align: left; }
+
+.process-matches-head { margin-top: 72px; margin-bottom: 32px; }
+.process-matches-head h2 { font-size: clamp(1.8rem, 3.6vw, 2.6rem); }
+.process-matches { margin-top: 0; }
+
+/* spec list as pills */
+.spec-list { display: flex; flex-wrap: wrap; gap: 10px; border-top: 0; padding: 0; margin-top: 28px; }
+.spec-list li {
+  display: inline-flex; align-items: center; gap: 10px;
+  padding: 10px 18px; border: 1px solid var(--accent-dark); border-radius: 999px;
+  background: rgba(106, 160, 86, 0.10);
+}
+.spec-list li::before {
+  content: ""; flex: none; width: 14px; height: 14px; border-radius: 50%;
+  background: var(--accent) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Cpath d='M4 8.5l2.5 2.5L12 5.5' fill='none' stroke='%230b0e0b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E") center / 10px no-repeat;
+}
+.spec-list strong { font-size: 0.85rem; letter-spacing: 0.02em; color: var(--white); }
