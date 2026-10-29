@@ -25,6 +25,14 @@ window.GALLERY_DATA = {
     {
       "src": "assets/images/action/action-7.jpg",
       "alt": "Shooter behind a barricade with a teal chassis rifle and suppressor"
+    },
+    {
+      "src": "assets/images/action/action-8.jpg",
+      "alt": "Shooter firing a red chassis rifle from behind a wooden barricade, smoke trailing from the suppressor"
+    },
+    {
+      "src": "assets/images/action/action-9.jpg",
+      "alt": "Close-up of a shooter behind a red MDT chassis rifle with a Vortex scope at a match"
     }
   ],
   "builds": [
@@ -129,6 +137,11 @@ window.GALLERY_DATA = {
       "src": "assets/images/leaderboard/altus-2026-long-range-challenge-3rd.jpg",
       "alt": "Blue chassis competition rifle with the Altus 2026 Long Range Challenge Series 3rd place plaque",
       "caption": "Altus 2026 Long Range Challenge Series · 3rd place"
+    },
+    {
+      "src": "assets/images/leaderboard/gap-grind-pro-am-4th.jpg",
+      "alt": "Competitor holding the Gap Grind plaque between two men at the 2026 Bushnell Gap Grind Pro/Am",
+      "caption": "Bushnell Gap Grind Pro/Am 2026 · 4th place AM"
     },
     {
       "src": "assets/images/leaderboard/lprc-2026-3rd-place.jpg",
